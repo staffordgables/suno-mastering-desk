@@ -1,0 +1,8 @@
+# Needed only for batch mode (command-line mastering of files).
+# The desk itself runs on the Python standard library alone.
+numpy>=1.22
+scipy>=1.8
+soundfile>=0.12
+
+# Optional: compiles the compressor and limiter loops, rendering much faster.
+# Install with: pip install numba
